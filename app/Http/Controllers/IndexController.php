@@ -8,11 +8,11 @@ class IndexController extends Controller
 {
     public function index()
     {
-        //return view('index');
+        return ('index');
     }
 
     public function show()
     {
-        //return view('show');
+        return ('show');
     }
 }
